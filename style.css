@@ -62,7 +62,7 @@ body{
 .hero__content{
   position:relative; z-index:1; text-align:center; color:#fff; padding:0 20px;
 }
-.title{ font-size:1.0rem; margin:0 0 8px; letter-spacing:.03em; }
+.title{ font-size:1.8rem; margin:0 0 8px; letter-spacing:.03em; }
 .subtitle{ margin:0 0 6px; opacity:.95; }
 
 .countdown{
@@ -97,5 +97,6 @@ body{
   .hero{ height:64vh; }
   .grid img{ height:220px; }
 }
+
 
 
