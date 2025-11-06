@@ -21,9 +21,10 @@ body{
 .container{
   max-width:90%;
   margin:0 auto;
-  padding:0 20px;
-background-color: rgba(255,216,114,0.5);
-border-radius: 30px;
+  padding:20 20px;
+background-color:#ffffff;
+oppacity: 0.8
+border-radius: 20px;
 }
 
 .section{
