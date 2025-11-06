@@ -14,29 +14,3 @@
     setInterval(tick, 60*1000);
   }catch(e){}
 })();
-
-
-
-// === Web Share API ===
-(function(){
-  const btn = document.getElementById("shareBtn");
-  if(!btn) return;
-  btn.addEventListener("click", async () => {
-    const shareData = {
-      title: "제 1회 무야호 커플 체육대회",
-      text: "탁구&볼링&고기",
-      url: location.href
-    };
-    if(navigator.share){
-      try{ await navigator.share(shareData); } catch(e){}
-    }else{
-      // 지원 안 되는 브라우저 대응: 주소 복사
-      try{
-        await navigator.clipboard.writeText(location.href);
-        btn.textContent = "링크 복사됨!";
-        setTimeout(()=> (btn.textContent = "링크 공유"), 1200);
-      }catch(e){}
-    }
-  });
-})();
-
