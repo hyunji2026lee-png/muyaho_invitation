@@ -83,7 +83,7 @@ body{
 .actions{ display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin-top:8px; }
 
 .card{
-  background:var(--card); border-radius:16px; padding:16px; margin:12px 0;
+  background:transparent; border-radius:16px; padding:16px; margin:12px 0;
   border:1px solid #f2f2f0;
 }
 
@@ -97,6 +97,7 @@ body{
   .hero{ height:64vh; }
   .grid img{ height:220px; }
 }
+
 
 
 
