@@ -19,11 +19,11 @@ body{
 }
 
 .container{
-  max-width:90%;
+  max-width:var(--maxw);
   margin:0 auto;
   padding:10 20px;
 background-color:#ffffff80;
-border-radius: 30px;
+border-radius: 0;
 }
 
 .section{
