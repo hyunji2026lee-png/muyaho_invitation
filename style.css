@@ -93,10 +93,11 @@ body{
 
 /* 큰 화면 보정 */
 @media (min-width:720px){
-  .title{ font-size:3.0rem; }
+  .title{ font-size:1.0rem; }
   .hero{ height:64vh; }
   .grid img{ height:220px; }
 }
+
 
 
 
