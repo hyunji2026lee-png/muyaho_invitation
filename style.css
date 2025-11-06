@@ -19,7 +19,7 @@ body{
 }
 
 .container{
-  max-width:0.95;
+  max-width:95;
   margin:10 20px;
   padding:10 20px;
 background-color:#ffffff80;
@@ -50,7 +50,7 @@ border-radius: 20px;
 .mono{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 
 .info{
-  list-style:none; padding:0; margin:0; display:grid; gap:10px;
+  list-style:none; padding:0; margin:10 20px; display:grid; gap:10px;
 }
 .info li{
   display:flex; justify-content:space-between; gap:10px;
