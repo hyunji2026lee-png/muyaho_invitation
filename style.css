@@ -1,6 +1,6 @@
 :root{
   --bg:#fff;
-  --card:#507D37;
+  --card:#FFF9E7;
   --text:#555;
   --muted:#fff;
   --primary:#ff6b81;
@@ -97,6 +97,7 @@ body{
   .hero{ height:64vh; }
   .grid img{ height:220px; }
 }
+
 
 
 
