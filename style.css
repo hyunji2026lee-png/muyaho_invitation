@@ -20,9 +20,9 @@ body{
 
 .container{
   max-width:90%;
-  margin:10 auto;
-  padding:0 20px;
-background-color:#ffffff50;
+  margin:0 auto;
+  padding:10 20px;
+background-color:#ffffff80;
 border-radius: 30px;
 }
 
