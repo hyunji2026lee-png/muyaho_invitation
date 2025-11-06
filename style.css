@@ -39,7 +39,7 @@ body{
   padding:48px 0;
 }
 .section_two--alt{
-  background:#62A044;
+  background:#9ACA83;
 }
 
 .lead{ text-align:center; font-size:1.05rem; }
@@ -90,7 +90,7 @@ body{
 
 .card{
   background:transparent; border-radius:16px; padding:16px; margin:12px 0;
-  border:1px solid #f2f2f0;
+  border:1px solid #f2f2f0; oppacity:0.2;
 }
 
 .footer{
