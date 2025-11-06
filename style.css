@@ -77,7 +77,7 @@ body{
 }
 .btn:hover{ box-shadow:0 8px 20px var(--ring); transform: translateY(-1px); }
 .btn:active{ transform: translateY(0); }
-.btn--outline{ background:transparent; color:var(--text); border-color:#fff; }
+.btn--outline{ background:transparent; color:var(--text); border-color:transparent; }
 .small{ padding:8px 12px; font-size:.9rem; }
 
 .actions{ display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin-top:8px; }
@@ -97,6 +97,7 @@ body{
   .hero{ height:64vh; }
   .grid img{ height:220px; }
 }
+
 
 
 
