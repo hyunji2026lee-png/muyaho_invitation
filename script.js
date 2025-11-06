@@ -17,27 +17,26 @@
 
 
 
-document.addEventListener("DOMContentLoaded", () => {
+// === Web Share API ===
+(function(){
   const btn = document.getElementById("shareBtn");
-
+  if(!btn) return;
   btn.addEventListener("click", async () => {
-    const data = {
-      title: document.title,
-      text: "링크 공유합니다!",
+    const shareData = {
+      title: "제 1회 무야호 커플 체육대회",
+      text: "탁구&볼링&고기",
       url: location.href
     };
-
-    if (navigator.share) {
-      try {
-        await navigator.share(data);
-      } catch (err) {
-        console.log("공유 취소 또는 오류:", err);
-      }
-    } else {
-      // 지원 안 되는 브라우저에서는 링크 복사만 실행
-      await navigator.clipboard.writeText(location.href);
-      alert("지원되지 않는 브라우저입니다.\n링크가 복사되었습니다!");
+    if(navigator.share){
+      try{ await navigator.share(shareData); } catch(e){}
+    }else{
+      // 지원 안 되는 브라우저 대응: 주소 복사
+      try{
+        await navigator.clipboard.writeText(location.href);
+        btn.textContent = "링크 복사됨!";
+        setTimeout(()=> (btn.textContent = "링크 공유"), 1200);
+      }catch(e){}
     }
   });
-});
+})();
 
