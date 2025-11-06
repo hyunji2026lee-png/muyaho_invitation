@@ -35,6 +35,12 @@ body{
   margin:0 0 16px;
   text-align:center;
 }
+.section_two{
+  padding:48px 0;
+}
+.section_two--alt{
+  background:#62A044;
+}
 
 .lead{ text-align:center; font-size:1.05rem; }
 
