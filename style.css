@@ -20,7 +20,7 @@ body{
 
 .container{
   max-width:var(--maxw);
-  margin:0 auto;
+  margin:10 auto;
   padding:10 20px;
 background-color:#ffffff80;
 border-radius: 0;
