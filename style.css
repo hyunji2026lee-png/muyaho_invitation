@@ -1,7 +1,7 @@
 :root{
-  --bg:#fff;
+  --bg:#57789C;
   --card:#FFF9E7;
-  --text:#555;
+  --text:#fff;
   --muted:#fff;
   --primary:#ff6b81;
   --primary-weak:#ffd9df;
@@ -112,6 +112,7 @@ margin:10px 10px;
   .hero{ height:64vh; }
   .grid img{ height:220px; }
 }
+
 
 
 
