@@ -22,7 +22,7 @@ body{
   max-width:var(--maxw);
   margin:10 20px;
   padding:10 20px;
-background-color:#ffffff40;
+background-color:transparent;
 border-radius: 0px;
 }
 
@@ -56,7 +56,7 @@ border-radius: 0px;
 }
 .info li{
   display:flex; justify-content:space-between; gap:10px;
-  padding:14px 16px; border-radius:14px; background:transparent;
+  padding:14px 16px; border-radius:14px; background:#ffffff50;
   box-shadow: 0 1px 0 rgba(0,0,0,.04);
 }
 .info li span{ color:var(--text); }
@@ -88,12 +88,13 @@ border-radius: 0px;
 .btn:hover{ box-shadow:0 8px 20px var(--ring); transform: translateY(-1px); }
 .btn:active{ transform: translateY(0); }
 .btn--outline{ background:transparent; color:var(--text); border-color:transparent; }
+
 .small{ padding:8px 12px; font-size:.9rem; }
 
 .actions{ display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin-top:8px; }
 
 .card{
-  background:transparent; border-radius:16px; padding:16px; margin:12px 0;
+  background:#ffffff80; border-radius:16px; padding:16px; margin:12px 0;
   border:1px solid #f2f2f0; oppacity:0.2;
 }
 
