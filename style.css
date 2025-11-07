@@ -45,10 +45,16 @@ border-radius: 0px;
 }
 .inner
 {
-  padding:10px 20px;
+padding:10px 20px;
 backgroungld-color:#fff;
 border-radius: 5px;
 margin:10px 10px;
+}
+
+.inner
+{
+padding:10px 0;
+text-align:center;
 }
 
 .lead{ text-align:center; font-size:1.05rem; }
@@ -112,6 +118,7 @@ margin:10px 10px;
   .hero{ height:64vh; }
   .grid img{ height:220px; }
 }
+
 
 
 
