@@ -22,8 +22,8 @@ body{
   max-width:var(--maxw);
   margin:10 20px;
   padding:10 20px;
-background-color:#ffffff20;
-border-radius: 20px;
+background-color:#ffffff40;
+border-radius: 0px;
 }
 
 .section{
