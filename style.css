@@ -38,12 +38,14 @@ border-radius: 20px;
   text-align:center;
 }
 .section_two{
-  padding:48px 24px;
+  padding:48px 0;
 }
 .section_two--alt{
   background:#9ACA83;
 }
-
+.inner{
+  padding:10px 20px;
+}
 .lead{ text-align:center; font-size:1.05rem; }
 
 .muted{ color:var(--muted); margin:.25rem 0; }
