@@ -27,7 +27,7 @@ border-radius: 0px;
 }
 
 .section{
-  padding:60px 0;
+  padding:100px 0;
 }
 .section--alt{
   background: transparent;
@@ -118,6 +118,7 @@ text-align:center;
   .hero{ height:64vh; }
   .grid img{ height:220px; }
 }
+
 
 
 
