@@ -30,7 +30,7 @@ border-radius: 0px;
   padding:30px 0;
 }
 .section--alt{
-  background: #ffffff;
+  background: linear-gradient(135deg, #5DA9E9 0%, #F7A76C 100%);
 }
 .section__title{
   font-size:1.35rem;
@@ -112,6 +112,7 @@ margin:10px 10px;
   .hero{ height:64vh; }
   .grid img{ height:220px; }
 }
+
 
 
 
